@@ -1,0 +1,29 @@
+@import "reset.css";
+@import "status-bar.css";
+
+.welcome-header {
+    margin-top: 120px;
+    text-align: center;   
+}
+
+.welcome-header_title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.welcome-header_text {
+    margin: 35px;
+    font-size: 30px;
+}
+
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.login-form input {
+    margin-bottom: 10px;
+}
