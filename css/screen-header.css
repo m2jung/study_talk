@@ -1,0 +1,12 @@
+.screen-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    font-size: 30px;
+    background-color: white;
+}
+
+.screen-header_title {
+    
+}

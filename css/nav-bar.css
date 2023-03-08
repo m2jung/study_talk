@@ -1,0 +1,36 @@
+.nav {
+    background-color: white;
+    padding: 28px 60px ;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    box-sizing: border-box;
+    font-size: 28px;
+
+    border-top: 1px solid gray;
+}
+.nav_list {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.nav_link {
+    position: relatives;
+    color: #2e363e;
+}
+
+.nav_notification {
+    background-color: tomato;
+    color: white;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    bottom: 45px;
+    left: 250px;
+}
