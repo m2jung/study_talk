@@ -2,9 +2,9 @@
 @import "status-bar.css";
 @import "nav-bar.css";
 @import "screen-header.css";
+@import "home.css";
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Lilita+One&display=swap');
 body {
-    background-color: rgb(255, 111, 8);
     font-family: 'Do Hyeon', sans-serif;
 }
 
@@ -15,9 +15,7 @@ body {
 
 .welcome-header_title {
     font-family: 'Lilita One', cursive;
-    text-shadow: 2px 2px 2px white;
     font-size: 70px;
-    font-weight: bold;
 }
 
 .welcome-header_text {
@@ -38,6 +36,9 @@ body {
     background-color: white;
     width: 150px;
     height: 25px;
+
+    border: none;
+    border-bottom: 1px solid gray;
 }
 
 .login-form input:nth-child(2) {
@@ -48,9 +49,14 @@ body {
     width: 100px;
     height: 30px;
     font-size: 15px;
+
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow:  1px 3px dimgray;
 }
 
 .login-form a {
     text-decoration: none;
     margin-top: 30px;
 }
+
