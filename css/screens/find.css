@@ -1,0 +1,140 @@
+.main-screen1 {
+    margin-top: 25px;
+}
+
+.main-screen2 {
+    margin-bottom: 50px;
+}
+.main-screen1,
+.main-screen2  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.find-icons {
+    width: 150px;
+    height: 150px;
+
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 3px solid black;
+    border-radius: 20px;
+
+    box-shadow: var(--shadow);
+
+}
+.find-icons i {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+
+.main-screen1 .find-icons:first-child{
+    background-color: lightgoldenrodyellow;
+}
+.main-screen1 .find-icons:last-child{
+    background-color: lightskyblue;
+}
+.main-screen2 .find-icons:first-child{
+    background-color: lightpink;
+}
+.main-screen2 .find-icons:last-child{
+    background-color: lightgreen;
+}
+
+.open-chat {
+    border-top: 1px solid rgba(0,0,0,0.3);
+    margin: 15px 20px ;
+    opacity: 0.7;
+}
+
+.open-chat_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 20px 20px;
+
+    opacity: 0.8;
+}
+
+.open-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px;
+}
+
+.open-post_title {
+    margin-bottom: 10px;
+}
+.open-post_hashtag {
+    text-align: center;
+    opacity: 0.6;
+}
+
+.open-post_member {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.open-post_member img {
+    width: 23px;
+    height: 23px;
+    border-radius: 15px;
+
+    margin-right: 5px;
+}
+
+.open-post_member-count {
+    opacity: 0.5;
+    font-size: 16px;
+}
+
+.divider {
+    width: 1px; 
+    height: 10px;
+    background-color: gray;
+
+    margin: 5px;
+}
+
+.open-post_member-status {
+    color: plum;
+    text-align: center;
+
+    font-size: 15px;
+}
+
+.open-post_photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.open-post_heart-count {
+    background-color: rgba(0,0,0,0.8);
+    color:white;
+    font-size: 12px;
+    
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+
+    position: absolute;
+    padding: 8px;
+
+    right: 40px;
+    bottom: 150px;
+}
+
+.open-post_heart-count span {
+    margin-left: 10px;
+}

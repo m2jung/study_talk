@@ -1,8 +1,22 @@
-@import "reset.css";
-@import "status-bar.css";
-@import "nav-bar.css";
-@import "screen-header.css";
-@import "home.css";
+@import "components/reset.css";
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/variables.css";
+@import "components/badge.css";
+@import "components/no-mobile.css";
+
+/* screen */
+@import "screens/home.css";
+@import "screens/chats.css";   
+@import "screens/find.css";
+@import "screens/my.css";
+@import "screens/setting.css";
+@import "screens/chatting.css";
+
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Lilita+One&display=swap');
 body {
     font-family: 'Do Hyeon', sans-serif;
@@ -16,6 +30,11 @@ body {
 .welcome-header_title {
     font-family: 'Lilita One', cursive;
     font-size: 70px;
+    color: lightcoral;
+    text-shadow: 3px 3px black;
+
+    font-style: oblique;
+    
 }
 
 .welcome-header_text {

@@ -5,9 +5,8 @@
     padding-bottom: 10px;
     color: rgba(0,0,0,0.6);
 
-
     border-bottom: 1px solid rgba(0,0,0,0.1);
-    
+
 }
 
 .home-story_img {
@@ -19,7 +18,7 @@
     border: 4px dashed dodgerblue;
 
     margin: 15px 25px; 
-    background-image: url('../boyung.jpeg');
+    background-image: url('../images/boyung.jpeg');
     background-position: center;
     background-size: cover
 }
@@ -46,10 +45,11 @@
 
     border: 1px solid black;
     border-radius: 30px;
+    box-shadow:var(--shadow);
 }
 .myprofile_img {
     margin: 20px 25px;
-    background-image: url('../boyung.jpeg');
+    background-image: url('../images/boyung.jpeg');
     background-position: center;
     background-size: cover;
 
@@ -68,9 +68,13 @@
 .myprofile_text span {
     padding-bottom: 3px;
 }
+
+
+
+
 .friends_profile-img{
     margin: 20px 25px;
-    background-image: url('../nico.png');
+    background-image: url('nico.png');
     background-position: center;
     background-size: cover;
 
@@ -83,13 +87,83 @@
     display: flex;
     justify-content: space-between;
 
-    margin: 20px;
-    font-size: 25px;
+    margin: 20px 32px;
+    font-size: 30px;
+}
+.home-todolist_header p {
+    font-size: 20px;
+    padding-top: 5px;
 }
 
-table {
-    border: 1px solid black;
-    width: 500px;
+
+table,tr,td,th {
+    border: 2px solid rgba(0,0,0,0.1);
+    width: 490px;
+    height: 20px;
+
     text-align: center;
     margin: auto;
+
+
+}
+th {
+    height: 25px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+    
+    background-color: lightcoral;
+}
+td {
+    height: 45px;
+    font-size: 30px;
+    padding-top: 15px;
+    
+    
+}
+
+
+.home-todolist_list {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.home-todolist_add {
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    
+    margin-right: auto;
+    text-align: center;
+    padding-top: 15px;    
+    background-color: black;
+
+    box-shadow: var(--shadow);
+}
+
+.home-todolist_list ul {
+    margin: 20px auto;
+    list-style:disc;
+
+}
+li span {
+    color: gray;
+}
+li input {
+    width: 380px;
+    height: 23px;
+
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid rgba(0,0,0,0.3);
+    margin-bottom: 15px;
+
+    text-decoration: line-through;
+}
+
+li input:last-child{
+    text-decoration: none;
 }

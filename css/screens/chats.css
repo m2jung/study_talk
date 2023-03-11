@@ -1,0 +1,70 @@
+
+a {
+    text-decoration: none;
+    color:black;
+
+}
+
+.userprofile {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.userprofile_img {
+    margin: 20px 25px;
+    background-image: url('../images/nico.jpg');
+    background-position: center;
+    background-size: cover;
+
+    width: 70px;
+    height: 70px;
+
+    border-radius: 30px;
+}
+
+.userprofile_text {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+}
+
+.userprofile_text span:last-child {    
+    font-size: 16px;
+    color: rgba(0,0,0,0.4);
+    margin-top: 10px;
+}
+
+
+.user-component__column {
+    color: rgba(0,0,0,0.4);
+    margin: 0 20px 0 auto;
+}
+
+@keyframes hideSplashScreen {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+
+
+
+#splash-screen {
+    background-color: lavenderblush;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 140px;
+    animation: hideSplashScreen 0.5s ease-in-out forwards;
+    animation-delay: 1s;
+}

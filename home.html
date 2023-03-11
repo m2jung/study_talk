@@ -24,7 +24,7 @@
     <header class="screen-header">
         <h1 class="screen-header_title">Tooding</h1>
         <div class="screen-header_icon">
-            <span><i class="fas fa-heart"></i></span>
+            <span class="screen-header_icon-heart"><i class="fas fa-heart"></i></span>
         </div>
 
     </header>
@@ -40,23 +40,35 @@
                 <span>박보영</span>
                 <span>💪💕</span> 
             </div>
-            <p> 상태메세지 추가하기</p>
+            <p>오늘의 일상 추가</p>
         </div>
     
 
         <div class="home-todolist_header">
             <span>TODO LIST</span>
+            <p>&lt;23년 3월 둘째주&gt;</p>
              <i class="far fa-calendar-minus"></i>
         </div>
         <div class="home-todolist_schedule">
-            <table>
+            <table border="1">
                 <tr>
                     <th>월</th><th>화</th><th>수</th><th>목</th><th>금</th><th>토</th><th>일</th>
                 </tr>
                 <tr>
-                    <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>❌</td><td>❌</td>
                 </tr>
             </table>
+
+            <div class="home-todolist_list">
+                <div class="home-todolist_add">
+                    + 메모추가 
+                </div>
+                <ul>
+                    <li><input type="text" value="노마드 코더 챌린지 과제 제출"><span>x</span></li>
+                    <li><input type="text" value="코코아톡 마무리하기"><span>x</span></li>
+                    <li><input type="text" value="블로그 포스팅하기"><span>x</span></li>
+                    <li><input type="text" placeholder="입력" autofocus></li>
+                </ul>
         </div>
 
         
@@ -72,6 +84,11 @@
         <li class="nav_btn"><a class="nav_link" href="my.html"><i class="fas fa-user fa-lg"></i></a></li>
     </ul>
   </nav>
+
+
+  <div id="no-mobile">
+    <span>화면이 너무 큽니다 ㅜㅜ</span>
+</div>
 </body>
 <script
 src="https://kit.fontawesome.com/6478f529f2.js"
