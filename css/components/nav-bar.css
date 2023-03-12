@@ -12,11 +12,10 @@
 .nav_list {
     display: flex; 
     justify-content: space-between;
+
 }
 
-.nav_link {
-    position: relatives;
+.nav_list i {
     color: rgba(0, 0, 0, 0.8);
-    
 }
 
