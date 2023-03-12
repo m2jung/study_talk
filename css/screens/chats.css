@@ -9,6 +9,8 @@ a {
     display: flex;
     justify-content: start;
     align-items: center;
+    
+    background-color: white;
 }
 
 

@@ -7,7 +7,7 @@
     box-sizing: border-box;
     font-size: 28px;
 
-    border-top: 1px solid gray;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 .nav_list {
     display: flex; 
@@ -16,6 +16,7 @@
 
 .nav_link {
     position: relatives;
-    color: #2e363e;
+    color: rgba(0, 0, 0, 0.8);
+    
 }
 

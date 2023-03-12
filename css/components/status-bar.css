@@ -1,10 +1,18 @@
 .status-bar {
+    position: fixed;
+    top: 0;
+
+    width: 95%;
+
     display: flex;
     justify-content: space-between;
     margin: 10px;
     padding: 5px;
-    
+
     text-align: center;
-    font-size: 18px;
-    
+    font-size: 20px;
+}
+
+.status-bar i {
+    margin: 0 3px 0;
 }

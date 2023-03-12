@@ -39,14 +39,17 @@
 .setting-icons {
     width: 100px;
     height: 100px;
+
+    background-color: rgb(255, 255, 255);
     box-shadow: 2px 2px lightgray;
-    
     border-radius: 20px;
 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    
 }
 .setting-icons i{
     font-size: 40px;
